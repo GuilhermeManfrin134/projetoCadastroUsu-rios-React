@@ -19,7 +19,7 @@ export default class UserCrud extends Component{
 
     state = { ...initialState}
 
-    componentViewMount() {
+    componentWillMount() {  
         axios(baseUrl).then(resp => {
             this.setState({list: resp.data})
         })
