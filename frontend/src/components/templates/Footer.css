@@ -6,3 +6,7 @@ footer.footer{
     background-color: #FFF;
     box-shadow: var(--shadow);
 }
+.footer.footer a{
+    color: black;
+    text-decoration: none;
+}
